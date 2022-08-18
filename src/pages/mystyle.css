@@ -7,12 +7,12 @@
   .svgimg {
     float: right; 
   }
-  h2 {
+  .line {
     padding-top: 80px;
     font-size: 30px;
     font-family: 'Poppins';
   }
-  h3 {
+  .line2 {
     font-size: 35px;
     color: #410B5F;
     font-family: 'Poppins';
@@ -24,6 +24,7 @@
   .p1 {
     font-size: 20px;
     color: #410B5F;
+    font-family: 'Poppins';
   }
   .svg {
     width: 200px;
@@ -155,13 +156,24 @@
     height: 100px;
   }
   .clearfix{
-    width: 120px;
+    width: 100%;
   }
-  h3 {
-    font-size: 12px;
-  }
-  .p1 {
+  p {
     font-size: 10px;
+  }
+  .p1{
+    font-size: 10px;
+  }
+  .line {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .line2 {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .svgimg {
+    width: 100px;
   }
  }
  @media only screen and (max-width:414px) {
@@ -182,13 +194,24 @@
     height: 100px;
   }
   .clearfix{
-    width: 120px;
+    width: 100%;
   }
-  h3 {
-    font-size: 12px;
-  }
-  .p1 {
+  p {
     font-size: 10px;
+  }
+  .p1{
+    font-size: 10px;
+  }
+  .line {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .line2 {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .svgimg {
+    width: 100px;
   }
  }
  @media only screen and (max-width:375px) {
@@ -209,12 +232,23 @@
     height: 70px;
   }
   .clearfix{
-    width: 100px;
+    width: 100%;
   }
-  h3 {
-    font-size: 12px;
-  }
-  .p1 {
+  p {
     font-size: 10px;
+  }
+  .p1{
+    font-size: 10px;
+  }
+  .line {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .line2 {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .svgimg {
+    width: 100px;
   }
  }

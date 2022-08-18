@@ -23,7 +23,9 @@ const IndexPage = ({data}) => {
         <Carousel>
             {data.slideShow.edges.map(({node}) => (
               <Carousel.Item key = {node.id}>
-                <GatsbyImage image={node.childImageSharp.gatsbyImageData} alt={node.base} />
+                <GatsbyImage className="svgimg" image={node.childImageSharp.gatsbyImageData} alt={node.base} />
+                <p className="line"><b>DUMMY TEXT</b></p>
+          <p>Lorem Ipsum has been the industry's standard.</p>
               </Carousel.Item> 
           ))}  
 
@@ -57,18 +59,18 @@ const IndexPage = ({data}) => {
         </div>
       </div>
       <div className="responsive2">
-        <div className="container2"> <h3>Self Storage</h3><p className="p1">Lorem Ipsum</p>
+        <div className="container2"> <p className="line2"><b>Self Storage</b></p><p className="p1">Lorem Ipsum</p>
         <img className="svg" src={logo} />
         </div> 
-        <div className="container2"> <h3>Office Storage</h3><p className="p1">Lorem Ipsum</p>
+        <div className="container2"> <p className="line2"><b>Office Storage</b></p><p className="p1">Lorem Ipsum</p>
         <img className="svg" src={image} />
         </div>
       </div>
       <div className="responsive2">
-        <div className="container2"><h3>Locker</h3><p className="p1">Lorem Ipsum</p>
+        <div className="container2"><p className="line2"><b>Locker</b></p><p className="p1">Lorem Ipsum</p>
         <img className="svg" src={picture} />
         </div>
-        <div className="container2"> <h3>About Us</h3><p className="p1">Lorem Ipsum</p></div>
+        <div className="container2"> <p className="line2"><b>About Us</b></p><p className="p1">Lorem Ipsum</p></div>
       </div>
       </div>
     </main>
